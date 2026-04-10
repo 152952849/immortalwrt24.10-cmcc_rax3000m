@@ -18,4 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 git clone https://github.com/sbwml/luci-app-openlist2 package/openlist
-git clone https://git.lanx.cf/https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone -b 2023.10 --depth 1 https://github.com/XiaoBinin/luci-app-adguardhome.git package/luci-app-adguardhome
